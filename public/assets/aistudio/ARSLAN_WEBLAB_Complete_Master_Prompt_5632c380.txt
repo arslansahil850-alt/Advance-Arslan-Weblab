@@ -1,0 +1,975 @@
+ARSLAN WEBLAB COMPLETE MASTER PROMPT FOR A BRAND-NEW WEBSITE Design,
+Development, Data Discovery, Asset Planning, Security, Testing and
+Deployment
+
+ROLE
+
+Act as a senior full-stack engineer, React architect, premium UI/UX
+designer, motion designer, accessibility specialist, SEO engineer,
+security engineer and technical project lead.
+
+Build a completely new, independent version of ARSLAN WEBLAB. This is a
+fresh project with a new codebase and a new deployment. It is NOT a
+replacement deployment for the existing live website. The old website
+and both existing project hubs must remain untouched and online.
+
+The user will work in Visual Studio Code (VS Code). The new frontend
+will be deployed on Vercel. A separate backend deployed on Render will
+be used exclusively for the Contact section. Do not build or route any
+other website feature through this backend.
+
+IMPORTANT WORKING RULE
+
+Do not start implementation immediately. First inspect the available
+source material, perform the content and asset audit, prepare the
+proposed structure and asset naming guide, and present the findings and
+implementation plan for approval. Work only after the user approves the
+plan and supplies the requested assets/content. Do not make changes to
+the old website or its repository.
+
+============================================================ 1. PROJECT
+REFERENCES AND EXISTING SOURCES
+============================================================
+
+Existing live website (reference and content source only):
+https://arslan-weblab.netlify.app/
+
+Existing GitHub repository (reference and content source only):
+https://github.com/arslansahil850-alt/Arslan-Weblab
+
+Existing Basic Projects Hub: https://myprojects-hub.netlify.app/
+
+Existing Advanced Projects Hub: https://projects-hub-snowy.vercel.app/
+
+New frontend hosting: Vercel
+
+New contact-only backend hosting: Render
+
+Development environment: Visual Studio Code (VS Code)
+
+Version control: Git and GitHub
+
+Public contact email: arslansahil850@gmail.com
+
+The new website must have its own separate project directory/repository
+and its own Vercel deployment. Do not overwrite, delete, repoint, or
+disrupt the old website or its repository. Do not change the old Netlify
+deployment. Do not assume that the new website should be deployed to the
+old site’s existing project.
+
+The new website should retain the same existing website pages and core
+information, with a completely new design. Inspect and identify the
+actual existing pages before planning the new page architecture. Do not
+arbitrarily add or remove pages.
+
+============================================================ 2.
+MANDATORY DISCOVERY AND OLD-PROJECT DATA INVENTORY
+============================================================
+
+Before design implementation, inspect all accessible sources:
+
+A. The old live website and all its reachable pages. B. The old GitHub
+repository, including source files, assets, data files and relevant
+history if available. C. The Basic Projects Hub and all accessible
+project entries. D. The Advanced Projects Hub and all accessible project
+entries.
+
+Create a clearly organized document and machine-readable data export
+called an Existing Project Data Inventory. Store it in the new project’s
+docs/ and data/imported/ locations as appropriate.
+
+The inventory must capture every discoverable and verifiable item,
+including:
+
+-   Existing page names, URLs, content and page relationships.
+-   Project names and titles.
+-   Project descriptions and summaries.
+-   Live demo URLs.
+-   GitHub repository URLs.
+-   Technology stacks and tags.
+-   Project categories.
+-   Screenshots, thumbnails, banners and other media.
+-   Image source filenames and original paths where discoverable.
+-   Existing logos, icons, illustrations and videos.
+-   Existing service descriptions.
+-   Skills and technologies.
+-   Contact information and existing contact actions.
+-   Social links.
+-   Navigation items.
+-   Useful metadata and configuration.
+-   Any other content or assets that may be valuable in the new website.
+
+For every item, record its source URL or source file/path when possible,
+whether it was verified, and whether it is ready to reuse.
+
+Do not invent missing details. Mark inaccessible, missing, uncertain or
+unverified data clearly. Do not silently omit projects simply because
+they are on one of the project hubs. If there are many entries,
+paginate/crawl responsibly and record the coverage and any limits.
+
+Produce: 1. A human-readable inventory document. 2. Structured JSON or
+JavaScript data that can be imported into the new website. 3. An asset
+inventory with original and proposed filenames/paths. 4. A list of
+missing information that requires the user’s input.
+
+The inventory must make it easy for the user and future developers to
+find and reuse any old project information. Keep the old sources
+unchanged.
+
+============================================================ 3. BRAND
+AND APPROVED VISUAL IDENTITY
+============================================================
+
+Use the previously approved ARSLAN SAHIL / ARSLAN WEBLAB brand identity
+and supplied brand assets. The approved black-and-champagne-gold
+geometric monogram emblem is the brand mark. Do not redesign, replace,
+distort or invent a different logo. Use the supplied approved logo
+asset.
+
+Use the previously supplied futuristic hero background image: a dark
+black/navy/blue technology visual with a central glowing gold geometric
+structure and technology/programming elements. Reuse the exact supplied
+image and preserve its composition. Do not generate or substitute a
+different hero image. If the image file is not accessible in the working
+project, request that the user upload it.
+
+The design identity is:
+
+HYBRID PREMIUM FUTURISTIC
+
+Combine: - Luxury futuristic atmosphere. - Modern professional
+layouts. - Excellent readability. - Balanced 3D visuals. - Premium
+spacing and typography. - Transparent glass surfaces. - Metallic gold
+borders and reflections. - Cinematic lighting. - Elegant gradients. -
+Subtle particles. - Carefully controlled motion. - Clear information
+hierarchy.
+
+Avoid generic templates, overcrowded layouts, excessive glow, excessive
+animations, low-contrast text and unnecessary decoration. Visual effects
+must support the content, not compete with it.
+
+============================================================ 4. FOUR
+COMPLETE GLOBAL THEMES
+============================================================
+
+Implement four fully supported themes:
+
+1.  ORIGINAL — default theme:
+    -   Deep navy and dark blue.
+    -   Champagne/metallic gold accents.
+    -   Premium futuristic atmosphere.
+    -   Glowing gold details.
+    -   Transparent dark surfaces.
+2.  SYSTEM:
+    -   Follow the visitor’s operating-system appearance preference.
+    -   React appropriately when the system preference changes.
+3.  LIGHT:
+    -   Elegant light surfaces.
+    -   Readable dark typography.
+    -   Refined gold accents.
+    -   Carefully controlled shadows and reflections.
+4.  BLACK:
+    -   Deep black surfaces.
+    -   Sophisticated metallic details.
+    -   High-contrast typography.
+    -   Subtle lighting.
+
+Themes must consistently apply to every page and component: backgrounds,
+typography, cards, borders, buttons, navigation, forms, modals, search,
+loaders, glass surfaces, 3D elements, footer, error pages and
+interactive states.
+
+Use centralized design tokens and CSS variables. Do not implement themes
+as a superficial background-only switch.
+
+Use the same supplied hero background image in every theme. Adapt its
+brightness, contrast, saturation, overlay and lighting through
+theme-specific CSS treatments without changing the image composition.
+
+Provide a compact theme switcher in the navbar and a dedicated
+preferences panel. The preferences panel must include theme and language
+preferences. Persist user preferences appropriately and provide smooth
+transitions without causing flashes or layout shifts.
+
+============================================================ 5.
+LANGUAGES AND RTL
+============================================================
+
+Support: - English. - Urdu. - Additional languages in the future.
+
+Requirements: - Centralized translation resources. - No scattered
+hardcoded interface strings. - Full Urdu right-to-left layout. -
+Appropriate typography for English and Urdu. - Correct RTL behavior for
+navigation, menus, forms, buttons, icons, search, cards and page
+layouts. - Language selector in the preferences interface. - Persist the
+selected language. - Easy addition of future languages. - Translate all
+user-facing interface content, not only headings.
+
+Use a robust internationalization approach. Avoid manually duplicating
+entire components for each language.
+
+============================================================ 6. PAGES
+AND NAVIGATION
+============================================================
+
+Inspect the existing site and preserve its actual page list and
+essential page relationships. Rebuild those pages with the new design.
+Do not invent a new page count or remove an existing page without
+explicit approval.
+
+Create: - Minimal luxury navigation. - Clean horizontal desktop
+navigation. - Elegant typography and premium spacing. - Theme-aware
+styles. - Responsive mobile navigation. - Accessible keyboard
+interaction. - Global search access. - Theme and language preference
+access. - Smooth transitions.
+
+Keep all navigation destinations accurate and working.
+
+============================================================ 7. HERO
+SECTION ============================================================
+
+Use the supplied original futuristic hero image as the full hero
+background. Do not replace it or alter its composition.
+
+Build a cinematic but readable hero around it, with: - Professional
+introduction. - Clear value proposition. - Carefully composed
+typography. - Primary and secondary CTA buttons. - Technology
+highlights. - Interactive 3D details. - Subtle lighting and motion. -
+Appropriate space for text and actions.
+
+The background must work across all four themes using overlays and image
+filters. Ensure text contrast and responsive positioning.
+
+============================================================ 8. ABOUT
+SECTION ============================================================
+
+Use a professional and creative hybrid editorial layout. Where supported
+by verified source content, include: - Professional introduction. -
+Development journey. - Timeline. - Technical expertise. - Working
+approach. - Development philosophy. - Achievements and milestones.
+
+Do not invent qualifications, education details, awards, client names or
+achievements. If content is absent, flag it for the user rather than
+fabricating it.
+
+============================================================ 9. SKILLS
+AND TECHNOLOGIES
+============================================================
+
+Create a data-driven skills and technologies experience with: - Infinite
+transparent marquees. - Interactive technology displays. - Categorized
+skills. - Technology logos/icons. - Short descriptions where verified. -
+Refined hover interactions. - Subtle 3D visuals.
+
+Marquees should loop seamlessly and may pause on hover/focus. Respect
+reduced-motion preferences. Make adding a technology or skill possible
+through data files without rewriting components. Use only verified
+skills and technologies.
+
+============================================================ 10.
+PROJECTS AND PROJECT HUBS
+============================================================
+
+Create premium project showcases. Each project record should support: -
+Screenshot or image. - Title. - Description. - Technology tags. - Live
+Demo link. - GitHub link. - Optional details action when appropriate.
+
+Create a dedicated “Explore My Project Universe” section and distinct
+showcases for both hubs:
+
+Basic Projects Hub: https://myprojects-hub.netlify.app/
+
+Advanced Projects Hub: https://projects-hub-snowy.vercel.app/
+
+Keep these two links separate and accurate. Include access from the
+navigation where appropriate. Do not merge the hubs or invent
+replacement URLs.
+
+Use the Existing Project Data Inventory to populate project content. Do
+not fabricate projects, screenshots, repository URLs, technology stacks
+or descriptions. If an item is incomplete, identify the missing fields.
+
+Include interactive project cards and suitable project-related infinite
+transparent marquee elements. Ensure all cards are keyboard accessible
+and responsive. Keep project data centralized and expandable.
+
+============================================================ 11.
+SERVICES ============================================================
+
+Include these eight services in an editorial, non-generic layout:
+
+1.  Custom Website Development.
+2.  Responsive Web Design.
+3.  Frontend Development.
+4.  Interactive Web Applications.
+5.  Landing Page Development.
+6.  Website Redesign.
+7.  Website Maintenance.
+8.  UI/UX Implementation.
+
+Use oversized headings, asymmetrical layouts, detailed descriptions,
+subtle 3D decorative elements and clear CTA buttons. Make service
+content data-driven and easy to extend.
+
+============================================================ 12. CONTACT
+SECTION — ONLY BACKEND FEATURE
+============================================================
+
+The ONLY purpose of the separate backend is the Contact section.
+
+The Render backend must be used exclusively for: - Contact form
+submission processing. - Server-side contact form validation. - Contact
+form spam/bot prevention. - Secure contact email delivery. - Related
+contact endpoint health and error handling.
+
+Do not use this backend for: - Global search. - Analytics. - Projects. -
+Services. - Themes. - Languages. - Notifications unrelated to contact
+submission. - Website content management. - General website APIs. - Any
+other website functionality.
+
+All other website functionality should remain in the frontend or use
+suitable external services/providers where appropriate.
+
+The contact experience should include: - Name. - Email. - Project
+type. - Budget range. - Requirements/message. - Timeline. - Client-side
+validation for usability. - Mandatory server-side validation. - Clear
+submission states. - Success and failure feedback. - WhatsApp contact
+with an appropriately prefilled message. - Email contact option. -
+Accessible labels and errors.
+
+Use the confirmed public email address: arslansahil850@gmail.com.
+
+Do not store contact inquiries in a database initially. Do not introduce
+a database for this project unless the user explicitly requests one
+later.
+
+============================================================ 13. CONTACT
+BACKEND — RENDER, 24/7
+============================================================
+
+Deploy the contact-only backend independently on Render.
+
+It must continue running when the user’s PC is switched ON or OFF, when
+VS Code is closed, and when the user’s home internet is disconnected.
+Visitors must be able to submit the contact form without the user’s
+computer running.
+
+This requires deployment to Render’s hosted infrastructure, not running
+the server locally.
+
+IMPORTANT AVAILABILITY REQUIREMENT: - Configure an appropriate always-on
+Render service/plan. - Do not rely on a free plan that spins down when
+idle if continuous availability is required. - Explain any hosting
+charges, free-tier limits, cold starts or plan restrictions before
+deployment. - Do not claim guaranteed 100% uptime. Explain that actual
+uptime depends on the hosting provider and service plan. - Provide a
+health endpoint for the contact service. - Configure appropriate
+monitoring/alerts where available.
+
+The backend must be independent of the user’s computer.
+
+============================================================ 14.
+ADVANCED CONTACT SECURITY — FREE-FIRST
+============================================================
+
+The contact system must receive strong, practical, production-grade
+protection using free tools and free tiers wherever possible. Avoid
+unnecessary paid services.
+
+Implement and test appropriate protections, including:
+
+-   Strict server-side input validation.
+-   Input normalization and safe sanitization.
+-   XSS protection through safe handling and output encoding.
+-   Injection protection through safe APIs and validation.
+-   CSRF protection where applicable to the chosen authentication/cookie
+    architecture.
+-   Free CAPTCHA or bot challenge integration where appropriate.
+-   Honeypot field.
+-   Rate limiting.
+-   Abuse and automated spam prevention.
+-   Duplicate submission controls where appropriate.
+-   Email header injection protection.
+-   Strict CORS allowlist for the new frontend domain.
+-   HTTPS-only communication.
+-   Secure HTTP headers.
+-   Request body size limits.
+-   Safe error responses.
+-   Secure logging without exposing message contents or unnecessary
+    personal data.
+-   Secret/API key protection.
+-   Environment-variable configuration.
+-   Dependency security checks.
+-   Validation of all data before email delivery.
+
+Do not claim a protection exists unless it is actually implemented and
+tested. Do not invent a “100% secure” guarantee. Explain the limitations
+of free services and free tiers. Do not add security theater or
+unnecessary friction for genuine visitors.
+
+Never put email provider credentials, SMTP passwords, private API keys
+or other secrets in frontend code or the public repository.
+
+============================================================ 15. EMAIL
+DELIVERY ============================================================
+
+Use a dual delivery approach: - Primary transactional email API. - SMTP
+fallback where supported and configured.
+
+Keep credentials in Render environment variables only. Use safe email
+templates and validate all fields server-side. Protect against email
+header injection and malicious content. Handle provider failures safely.
+Do not expose internal errors to visitors.
+
+Do not assume the fallback is active until it is configured and tested.
+Clearly document the provider setup the user must complete.
+
+============================================================ 16. GLOBAL
+SEARCH ============================================================
+
+Implement an advanced global search across: - Existing website pages. -
+Projects. - Services. - Technologies. - FAQs. - Other relevant published
+website content.
+
+Features: - Instant suggestions while typing. - Live categorized
+results. - Search-result highlighting. - Keyboard navigation. - Keyboard
+shortcuts. - Mobile-friendly interface. - Theme-aware design. - English
+and Urdu support. - RTL-aware search. - Helpful empty states. - Useful
+no-results suggestions. - Expandable search index.
+
+The search should be frontend-based and use the centralized
+content/search index. Do not send search requests to the contact
+backend.
+
+============================================================ 17.
+NOTIFICATIONS
+============================================================
+
+Implement advanced, elegant toast notifications rather than a full
+notification center.
+
+Include: - Contact form success/failure. - Copy-to-clipboard
+confirmation. - Email and WhatsApp action feedback where useful. -
+Search and interaction feedback. - Loading, success and error states.
+
+Notifications must be theme-aware, accessible, smoothly animated and
+automatically dismissed when appropriate. Avoid unnecessary
+notifications.
+
+============================================================ 18. FAQ
+============================================================
+
+Create a simple, elegant, accessible FAQ accordion: - Smooth open/close
+transitions. - Plus/minus indicators. - Theme-aware appearance. -
+Keyboard accessibility. - Appropriate ARIA semantics. - Centralized
+data.
+
+Do not invent business policies or claims.
+
+============================================================ 19. FOOTER
+============================================================
+
+Create a premium creative footer with: - Large creative typography. -
+Navigation. - Contact information. - Verified social links only. - Both
+project hub links. - Subtle 3D details. - Animated copyright. -
+Theme-aware styling.
+
+Use centralized social-link data so new links can be added later. Do not
+invent social profiles.
+
+============================================================ 20. VISUAL
+SYSTEM AND 3D DETAILS
+============================================================
+
+Use these selected elements selectively: - 3D glass panels and
+transparent surfaces. - Metallic gold borders and reflections. -
+Animated glowing lines. - Geometric patterns. - Floating 3D technology
+objects. - Creative section separators and transitions. - Interactive
+gradient lighting. - Subtle particle effects. - Custom illustrated
+icons.
+
+Maintain visual hierarchy, readability and performance. Do not overcrowd
+the interface.
+
+============================================================ 21.
+ANIMATIONS AND INTERACTIONS
+============================================================
+
+Use a balanced combination: - Cinematic hero animation. - Highly
+interactive project sections. - Elegant animations elsewhere.
+
+Include where appropriate: - Custom animated cursor on supported desktop
+devices. - Magnetic buttons. - Scroll progress indicator. - Back-to-top
+control. - Smooth page transitions. - Subtle parallax. - Interactive
+hover effects.
+
+Respect prefers-reduced-motion. Disable or simplify costly effects on
+weaker devices and mobile devices when necessary. Ensure keyboard and
+touch users can access equivalent functionality.
+
+The website must be completely silent: - No background music. - No sound
+effects. - No automatic audio.
+
+============================================================ 22. LOADING
+SYSTEM — IMPORTANT DISTINCTION
+============================================================
+
+A. MAIN INITIAL WEBSITE LOADER
+
+The main loader must be an advanced, captivating, custom cinematic
+experience suited to a premium futuristic web development portfolio.
+
+It should include: - ARSLAN WEBLAB branding. - A refined 3D
+geometric/technology visual. - Metallic gold reflections and glowing
+lines. - Carefully controlled particle effects. - Smooth cinematic
+animation. - Elegant typography. - A tasteful progress/loading indicator
+if technically meaningful. - Theme-aware styling for all four themes. -
+Responsive behavior. - A smooth transition into the actual website.
+
+It must not be a generic spinning circle or a plain progress bar. It
+should feel like a premium introduction to the website.
+
+Do not use fake percentages or fake progress. Do not delay the visitor
+unnecessarily. Handle initial loading errors and avoid trapping visitors
+on the loader.
+
+B. OTHER LOADING STATES
+
+Provide suitable loaders for: - Page transitions. - Search operations
+when genuinely asynchronous. - Contact form submission. - Other actual
+asynchronous actions. - Project content loading where appropriate.
+
+C. IMAGE AND VIDEO LOADERS — CIRCULAR ONLY
+
+All image and video loading indicators must be circular animated
+loaders.
+
+Requirements: - Circular spinner/ring. - Premium gold appearance in
+Original theme. - Theme-adaptive colors in Light, Black and System
+themes. - Centered within the media container. - Smooth appearance and
+disappearance. - Removed immediately when the media has loaded. -
+Appropriate fallback if loading fails. - Correct handling of lazy-loaded
+media.
+
+Apply this to project images, screenshots, illustrations, thumbnails,
+logos and videos where a loading state is needed.
+
+Do not use rectangular skeleton loaders for images or videos. The user
+specifically requires circular image/video loaders.
+
+Project content may use suitable content skeletons only where
+appropriate; do not confuse these with media loaders.
+
+============================================================ 23.
+RESPONSIVE DESIGN
+============================================================
+
+Build deliberate experiences for: - Mobile phones. - Tablets. -
+Laptops. - Desktop displays. - Ultrawide displays.
+
+Do not merely shrink desktop layouts. Adapt navigation, spacing,
+typography, controls, interactions, media and 3D effects to each device
+class. Prevent horizontal overflow and maintain touch-friendly controls.
+
+============================================================ 24.
+PERFORMANCE ============================================================
+
+Implement: - Optimized images and videos. - Responsive image sources
+where appropriate. - Lazy loading. - Efficient asset loading. - Code
+splitting where appropriate. - Efficient React rendering. -
+GPU-conscious animation. - Adaptive effects for weaker devices. -
+Sensible caching. - Fast navigation. - Minimized unnecessary
+dependencies.
+
+Do not sacrifice usability or visual quality for needless complexity.
+Measure and test performance.
+
+============================================================ 25. SEO
+============================================================
+
+Implement a complete scalable SEO system: - Unique page titles. - Meta
+descriptions. - Canonical URLs. - Structured data where appropriate. -
+Open Graph metadata. - Social sharing previews. - Sitemap. - Robots
+configuration. - Indexing strategy. - Semantic HTML. - Correct heading
+hierarchy. - Image alt text. - Optimized performance. - SEO-friendly
+URLs. - Scalable project and service metadata. - Appropriate English and
+Urdu metadata.
+
+Do not fabricate ratings, reviews, business details or structured-data
+claims. Ensure the new website has its own canonical domain and does not
+accidentally canonicalize to the old website.
+
+============================================================ 26.
+ANALYTICS ============================================================
+
+Implement complete, privacy-conscious analytics through an appropriate
+external provider. Analytics must not use the contact backend.
+
+Where supported and appropriately consented, track: - Page views. -
+Visitor counts. - Traffic sources. - Popular pages. - Device
+categories. - Project demo clicks. - GitHub clicks. - Contact form
+conversions. - WhatsApp clicks. - Language selections. - Theme
+selections. - Custom events.
+
+Do not introduce a database for analytics. Avoid unnecessary collection
+of personal data. Respect applicable privacy requirements and explain
+provider limits and consent configuration.
+
+============================================================ 27.
+ACCESSIBILITY
+============================================================
+
+Aim for comprehensive accessibility: - Full keyboard navigation. -
+Screen-reader support. - Semantic HTML. - Appropriate ARIA attributes. -
+Visible focus indicators. - Strong contrast. - Scalable typography. -
+High-contrast accessibility option. - Reduced-motion support. -
+Accessible forms and validation. - Accessible menus and dialogs. -
+Accessible global search. - Touch-friendly controls.
+
+Test accessibility rather than relying only on visual inspection.
+
+============================================================ 28. CUSTOM
+ERROR EXPERIENCES
+============================================================
+
+Create custom: - 404 page. - 403 page. - 500 page.
+
+Include helpful recovery suggestions, navigation, search access and safe
+error states. Make them theme-aware, language-aware, responsive and
+accessible. Never expose server stack traces, secrets or sensitive
+technical information.
+
+============================================================ 29. CONTENT
+MANAGEMENT AND FUTURE ADMIN
+============================================================
+
+Initially manage content through centralized JSON/JavaScript data files
+edited in VS Code.
+
+Make it straightforward to update: - Projects. - Services. - Skills. -
+Technologies. - FAQs. - Social links. - Navigation. - Languages. -
+Search index. - SEO metadata. - Site configuration.
+
+Design the frontend data layer so a private admin dashboard can be added
+in the future. Do not build the admin dashboard now unless separately
+requested. Do not introduce a database now. The future dashboard must
+not cause the contact backend to expand beyond its contact-only
+responsibility.
+
+============================================================ 30.
+DEVELOPMENT AND DEPLOYMENT WORKFLOW
+============================================================
+
+Use: - VS Code. - Git. - GitHub. - Vercel for the new frontend. - Render
+exclusively for the contact backend.
+
+Use separate development and production configurations. Test before
+production releases. Use Vercel preview deployments where appropriate.
+Deploy the Render contact service independently. Keep secrets out of
+GitHub. Provide safe release and rollback instructions.
+
+The new project must have its own deployment configuration. Do not
+repoint or replace the old Netlify website.
+
+============================================================ 31.
+COMPREHENSIVE TESTING
+============================================================
+
+Implement and run: - Unit tests. - Integration tests. - End-to-end
+tests. - Responsive tests. - Browser compatibility tests. -
+Accessibility tests. - Performance tests. - Contact API tests. - Contact
+security/validation tests. - Regression tests. - Production build
+verification.
+
+Test actual visitor journeys: navigation, theme changes, language
+changes, global search, project links, form submission, validation,
+success/failure states, and responsive behavior.
+
+Do not claim tests passed unless they were executed. Report failures and
+unresolved issues clearly.
+
+============================================================ 32.
+MONITORING ============================================================
+
+Implement a suitable monitoring strategy: - Frontend error monitoring. -
+Contact backend error monitoring. - Contact API health check. - Uptime
+monitoring. - Performance monitoring. - Security-event monitoring where
+supported. - Deployment health checks. - Actionable alerts.
+
+Use free tools/free tiers where practical. Explain limitations.
+Monitoring must not turn the contact backend into a general-purpose
+backend.
+
+============================================================ 33. CODE
+QUALITY AND DOCUMENTATION
+============================================================
+
+The user explicitly requires NO code comments.
+
+Do not add unnecessary comments inside: - HTML. - CSS. - JavaScript. -
+React components. - Configuration files.
+
+Write clean, readable, maintainable code with sensible names and modular
+organization. Do not compress code into unreadable one-liners.
+
+Create separate documentation files, including: - Architecture. - Folder
+structure. - Installation. - Development. - Environment variables. -
+Deployment. - Contact API documentation. - Security. - Testing. -
+Monitoring. - Troubleshooting. - Future expansion.
+
+============================================================ 34.
+PROPOSED NEW PROJECT FOLDER STRUCTURE
+============================================================
+
+This is the proposed target structure for the NEW independent project.
+It is not an instruction to modify the old repository. Adapt it to the
+actual needs and chosen tools. Avoid unnecessary folders, duplicate
+files and unused abstractions.
+
+Arslan-Weblab-New/ | |– frontend/ # New React frontend; deploy on Vercel
+| | | |– public/ | | |– assets/ | | | |– images/ | | | | |– brand/ | | |
+| |– hero/ | | | | |– projects/ | | | | |– technologies/ | | | | |–
+illustrations/ | | | | |– backgrounds/ | | | |
+-- social/ |   |   |   |-- videos/ |   |   |   |   |-- hero/ |   |   |   |   |-- backgrounds/ |   |   |   |–
+projects/ | | | |– icons/ | | | |– logos/ | | |
+-- fonts/ |   |   |-- favicon.ico |   |   |-- robots.txt |   |–
+sitemap.xml | | | |– src/ | | |– app/ | | | |– App.jsx | | | |–
+router.jsx | | |
+-- providers.jsx |   |   | |   |   |-- pages/                    # Recreate the actual existing page list |   |   | |   |   |-- layouts/ |   |   |   |-- MainLayout.jsx |   |   |–
+PageLayout.jsx | | | | | |– sections/ | | | |– Hero/ | | | |– About/ | |
+| |– Skills/ | | | |– Technologies/ | | | |– Projects/ | | | |–
+ProjectHubs/ | | | |– Services/ | | | |– FAQ/ | | | |– Contact/ | | |
+-- Footer/ |   |   | |   |   |-- components/ |   |   |   |-- common/ |   |   |   |-- navigation/ |   |   |   |-- buttons/ |   |   |   |-- cards/ |   |   |   |-- loaders/ |   |   |   |-- notifications/ |   |   |   |-- modals/ |   |   |   |-- search/ |   |   |   |-- forms/ |   |   |   |-- accessibility/ |   |   |–
+3d/ | | | | | |– data/ | | | |– projects.js | | | |– services.js | | |
+|– skills.js | | | |– technologies.js | | | |– faqs.js | | | |–
+navigation.js | | | |– social-links.js | | |
+-- imported/ |   |   | |   |   |-- config/ |   |   |   |-- site-config.js |   |   |   |-- theme-config.js |   |   |   |-- language-config.js |   |   |   |-- seo-config.js |   |   |–
+analytics-config.js | | | | | |– i18n/ | | | |– index.js | | | |– en/ |
+| | | -- translation.json |   |   |– ur/ | | |
+-- translation.json |   |   | |   |   |-- themes/ |   |   |   |-- theme-variables.css |   |   |   |-- original.css |   |   |   |-- light.css |   |   |   |-- black.css |   |   |–
+system.css | | | | | |– hooks/ | | |– context/ | | |– services/ #
+Frontend integrations; not a general backend | | |– utils/ | | |–
+constants/ | | |– styles/ | |
+-- main.jsx |   | |   |-- tests/ |   |   |-- unit/ |   |   |-- integration/ |   |   |-- accessibility/ |   |–
+e2e/ | | | |– index.html | |– package.json |
+-- vite.config.js | |-- backend/                          # Render service; CONTACT ONLY |   | |   |-- src/ |   |   |-- config/ |   |   |   |-- environment.js |   |   |   |-- cors.js |   |   |–
+security.js | | | | | |– routes/ | | | |– contact.routes.js | | |
+-- health.routes.js |   |   | |   |   |-- controllers/ |   |   |   |-- contact.controller.js |   |   |–
+health.controller.js | | | | | |– services/ | | |
+-- email/ |   |   |       |-- email.service.js |   |   |       |-- api.provider.js |   |   |–
+smtp.provider.js | | | | | |– middleware/ | | | |– rate-limit.js | | |
+|– validation.js | | | |– error-handler.js | | |
+-- security.js |   |   | |   |   |-- validators/ |   |   |–
+contact.validator.js | | | | | |– utils/ | |
+-- server.js |   | |   |-- tests/ |   |   |-- unit/ |   |   |-- integration/ |   |–
+security/ | | | |– package.json |
+-- .env.example | |-- docs/ |   |-- architecture.md |   |-- folder-structure.md |   |-- existing-project-data-inventory.md |   |-- asset-inventory.md |   |-- asset-naming-guide.md |   |-- installation.md |   |-- development.md |   |-- deployment.md |   |-- contact-api.md |   |-- security.md |   |-- testing.md |   |-- monitoring.md |–
+troubleshooting.md | |– scripts/ |
+-- [Only required development and maintenance scripts] | |-- .github/ |–
+workflows/ |
+-- [Optional test/build workflows] | |-- .gitignore |-- README.md–
+package.json # Only if a root workspace is actually useful
+
+Folder structure rules: - This is a new project, separate from the old
+website. - Do not create empty folders without a real use. - Do not
+introduce a monorepo/workspace tool unless it benefits the project. -
+The backend folder must contain contact-related functionality only, plus
+the minimal health endpoint required for hosting/monitoring. - The
+frontend must not depend on the user’s PC being on. - Use exact,
+verified paths in code. - Document the final actual structure in
+docs/folder-structure.md. - If the framework or build tool requires a
+different layout, explain the reason and update the documentation.
+
+============================================================ 35. ASSET
+NAMING, FILE PATHS AND USER UPLOAD GUIDE
+============================================================
+
+This is a mandatory planning deliverable. The user wants exact filenames
+to assign to every image and video, especially all logos, and wants
+correct paths in code.
+
+Before implementation, inspect the supplied brand assets, the supplied
+hero image, existing project images and the planned design. Then create
+a complete Asset Naming Guide and Asset Inventory.
+
+The guide must tell the user, in a simple table: - Exact filename to
+give each image. - Exact filename to give each video. - Exact folder
+where it must be placed. - What the asset is used for. - Whether it is
+required or optional. - Recommended format and dimensions/aspect ratio
+when relevant. - Whether a light/dark/theme-specific variant is
+needed. - Whether the asset already exists or must be
+supplied/generated.
+
+Do not merely tell the user to upload “a logo” or “a hero image”. Give
+the exact filename and exact folder path.
+
+Use clear, consistent, lowercase, hyphen-separated filenames. Avoid
+spaces, ambiguous names, duplicate names and random suffixes.
+
+Suggested initial naming convention (verify against actual requirements
+before finalizing the list):
+
+BRAND IMAGES: - brand-logo.svg - brand-logo-dark.svg -
+brand-logo-light.svg - brand-monogram.svg - favicon.ico -
+favicon-32.png - apple-touch-icon.png - og-cover.webp
+
+HERO IMAGES: - hero-background.webp - hero-background-mobile.webp (only
+if a genuinely different crop is needed) - hero-decoration-01.webp (only
+if required) - hero-decoration-02.webp (only if required)
+
+PROJECT IMAGES: - project-[unique-id]-cover.webp -
+project-[unique-id]-01.webp - project-[unique-id]-02.webp
+
+TECHNOLOGY AND ILLUSTRATION ASSETS: - technology-[name].svg -
+illustration-[purpose].webp - background-[purpose].webp
+
+VIDEO ASSETS, ONLY IF ACTUALLY REQUIRED: - hero-background.mp4 -
+hero-background.webm - project-[unique-id]-preview.mp4 -
+background-[purpose].mp4
+
+Do not require duplicate theme-specific copies if CSS filters or SVG
+styling can safely handle the theme. Do not create unnecessary video
+assets. The hero background image is already selected and must remain
+the same composition in every theme. Ask the user for any missing
+required assets.
+
+After approval, create an asset manifest that maps every required file
+to its exact path, for example: -
+frontend/public/assets/images/brand/brand-logo.svg -
+frontend/public/assets/images/hero/hero-background.webp -
+frontend/public/assets/videos/hero/hero-background.mp4
+
+These are examples; produce the final list based on actual design
+requirements. Every code reference must match an actual filename and
+verified path. Never guess a filename, rename a file silently, or leave
+a broken reference. Test that all referenced assets load.
+
+The user specifically wants to know only what names to give the assets
+and where to place them. Make the asset guide simple to follow, with a
+required-assets checklist and optional-assets checklist. Do not ask the
+user to invent filenames.
+
+============================================================ 36. PWA AND
+DATABASE RESTRICTIONS
+============================================================
+
+Do not implement PWA functionality: - No installable app experience. -
+No service-worker-based offline app. - No PWA manifest/installation
+workflow unless later requested.
+
+Do not introduce a database initially: - No database for contact
+submissions. - No database for analytics. - No database for website
+content. - Use centralized frontend data files. - Use external analytics
+where appropriate.
+
+============================================================ 37. FINAL
+ACCEPTANCE CRITERIA
+============================================================
+
+The new website is not complete until all applicable items below are
+verified:
+
+1.  It is a new, independent project.
+2.  The old website remains untouched and online.
+3.  The old GitHub repository is not overwritten.
+4.  Existing website pages and core information are identified and
+    preserved in the new build.
+5.  Both project hubs have been inspected.
+6.  The Existing Project Data Inventory is complete to the extent
+    accessible.
+7.  No project information has been fabricated.
+8.  The approved logo is used without redesign.
+9.  The supplied hero background image is reused without composition
+    changes.
+10. All four themes work consistently.
+11. English and Urdu work, including correct Urdu RTL.
+12. The preferences panel works.
+13. Global search works across relevant frontend content.
+14. Projects and services are data-driven.
+15. Both project hub URLs work.
+16. Contact form works through the Render contact-only backend.
+17. The backend is deployed independently and does not depend on the
+    user’s PC.
+18. An appropriate always-on Render configuration is selected and its
+    cost/limits are explained.
+19. Contact security measures are implemented and tested.
+20. Email API and SMTP fallback are configured and tested as applicable.
+21. No credentials are exposed.
+22. No database has been added.
+23. No PWA has been added.
+24. Image and video loaders are circular.
+25. The main loader is cinematic, branded and premium.
+26. The site is responsive on all target screen sizes.
+27. Accessibility is tested.
+28. SEO is implemented.
+29. Analytics is integrated through an appropriate external provider.
+30. Notifications work.
+31. Custom 404, 403 and 500 experiences work.
+32. Performance is measured and optimized.
+33. Tests are actually executed and results documented.
+34. The final asset guide gives exact names and paths.
+35. No broken asset references remain.
+36. Documentation is complete.
+37. Source code contains no unnecessary comments.
+38. No testimonials have been added.
+39. No fake projects, claims, metrics, reviews or social links have been
+    created.
+40. The new Vercel deployment is independent of the old Netlify
+    deployment.
+
+============================================================ 38.
+REQUIRED WORK SEQUENCE AND APPROVAL GATES
+============================================================
+
+PHASE 1 — DISCOVERY Inspect the old live website, old repository and
+both project hubs. Do not modify them.
+
+PHASE 2 — INVENTORY Produce the complete Existing Project Data
+Inventory, structured project data, page inventory, and asset inventory.
+Clearly identify inaccessible or missing information.
+
+PHASE 3 — PROPOSAL Present: - Confirmed page list. - Proposed new
+project architecture. - Proposed folder structure. - Existing
+content/data migration plan. - Exact asset naming and upload guide. -
+Frontend/backend responsibility boundaries. - Hosting and cost
+considerations. - Implementation plan.
+
+Wait for the user’s approval before building.
+
+PHASE 4 — ASSET COLLECTION Tell the user the exact filename and folder
+path for every required image and video. Wait for required assets.
+Verify every asset before referencing it.
+
+PHASE 5 — DESIGN SYSTEM Build theme tokens, typography, layouts,
+responsive rules, visual effects and reusable components.
+
+PHASE 6 — FRONTEND Build the new frontend and all existing pages using
+verified content and centralized data.
+
+PHASE 7 — CONTACT BACKEND ONLY Build and secure the separate Render
+backend exclusively for the Contact section. Do not add other backend
+functionality.
+
+PHASE 8 — INTEGRATIONS Configure analytics, SEO, email delivery,
+notifications and other frontend/external integrations without expanding
+the contact backend’s responsibility.
+
+PHASE 9 — TESTING Run tests, fix issues and report real results.
+
+PHASE 10 — DEPLOYMENT Deploy the new frontend to its own Vercel project
+and the contact-only backend to Render. Do not disturb the old site.
+
+PHASE 11 — HANDOVER Provide setup, asset, environment, testing,
+deployment and maintenance documentation.
+
+FINAL BEHAVIOR: - Do not start coding before discovery and approval. -
+Do not modify the old website or repository. - Do not invent missing
+data. - Do not create fake asset paths. - Do not add features that the
+user explicitly rejected. - Do not expand the backend beyond the Contact
+section. - Do not claim deployment, testing, security or uptime without
+verification. - Ask only focused questions when genuinely necessary. -
+Keep the user informed at each approval gate.
+
+Build ARSLAN WEBLAB as a premium, reliable, accessible, fast, secure and
+extensible futuristic web development portfolio while keeping the old
+website safe and independent.

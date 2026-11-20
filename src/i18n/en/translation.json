@@ -1,0 +1,447 @@
+{
+  "brand": {
+    "name": "ARSLAN WEBLAB",
+    "tagline": "Modern Web Engineering & Digital Studio",
+    "owner": "Arslan Sahil"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "letsTalk": "Let's Talk",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "searchLabel": "Search",
+    "searchShortcut": "Ctrl K",
+    "preferencesLabel": "Preferences",
+    "themeLabel": "Theme",
+    "skipToContent": "Skip to main content"
+  },
+  "themes": {
+    "original": "Original",
+    "system": "System",
+    "light": "Light",
+    "black": "Black"
+  },
+  "preferences": {
+    "title": "Experience Preferences",
+    "subtitle": "Customize visual theme, language direction, accessibility, and privacy settings.",
+    "themeSection": "Visual Theme",
+    "themeHint": "Applies across all pages, glass surfaces, cards, 3D geometry, and media overlays.",
+    "languageSection": "Language & Layout Direction",
+    "languageHint": "Switches interface copy and full layout direction (LTR / RTL).",
+    "accessibilitySection": "Accessibility Controls",
+    "highContrast": "High Contrast Mode",
+    "highContrastDesc": "Increases border visibility and text-to-surface contrast.",
+    "reducedMotion": "Reduce Motion",
+    "reducedMotionDesc": "Disables marquees, parallax, and heavy 3D rotation.",
+    "analyticsConsent": "Privacy-Conscious Analytics",
+    "analyticsConsentDesc": "Allow anonymous page-view and interaction metrics via external provider (never sent to the contact server).",
+    "close": "Done",
+    "savedToast": "Preferences updated"
+  },
+  "loader": {
+    "kicker": "Digital Engineering Portfolio",
+    "initializing": "Preparing workspace",
+    "skip": "Enter Site"
+  },
+  "hero": {
+    "kicker": "Web Developer · Frontend & Interactive Systems",
+    "titleLine1": "Building Modern",
+    "titleAccent": "Digital Experiences",
+    "description": "I design and engineer responsive, interactive websites and full-stack learning projects that transform practical ideas into refined web applications.",
+    "ctaPrimary": "Explore My Work",
+    "ctaSecondary": "Start a Project",
+    "statProjectsValue": "34+",
+    "statProjectsLabel": "Hub Projects",
+    "statExperienceValue": "3+ Yrs",
+    "statExperienceLabel": "Building & Learning",
+    "statResponsiveValue": "100%",
+    "statResponsiveLabel": "Responsive Focus",
+    "techHighlightsLabel": "Core Stack",
+    "assetNotice": "Place hero-background.webp in public/assets/images/hero/ to display the custom backdrop"
+  },
+  "capabilities": {
+    "kicker": "What I Do",
+    "title": "Engineering for the Modern Web",
+    "subtitle": "Structured semantic architecture, responsive precision, and interactive JavaScript experiences.",
+    "items": {
+      "html": { "title": "HTML5 Architecture", "desc": "Semantic, accessible, and SEO-friendly document structure." },
+      "css": { "title": "CSS3 & Design Systems", "desc": "Modern layouts, fluid responsive grids, and controlled motion." },
+      "js": { "title": "JavaScript & React", "desc": "Dynamic state, DOM interaction, and modular component design." },
+      "rwd": { "title": "Responsive UI", "desc": "Deliberate experiences across mobile, tablet, laptop, and ultrawide displays." },
+      "api": { "title": "API Integration", "desc": "Connecting web applications with external REST APIs and JSON data." },
+      "backend": { "title": "Node.js & Express", "desc": "Expanding backend capabilities through structured routing and API projects." }
+    }
+  },
+  "about": {
+    "kicker": "About Me",
+    "previewTitle": "Turning Ideas Into Refined Web Experiences",
+    "previewBody1": "I'm Arslan Sahil, a web developer focused on creating modern, responsive, and interactive websites. I enjoy turning concepts into clean, functional, and engaging digital products.",
+    "previewBody2": "My journey started with frontend fundamentals and has expanded across 34 published hub projects spanning HTML, CSS, JavaScript, and structured Node.js/Express.js backend phases.",
+    "moreAboutBtn": "Explore My Journey",
+    "pageKicker": "About Arslan Sahil",
+    "pageTitle": "Building My Journey in Web Development",
+    "pageSubtitle": "Focused on structured engineering, responsive interfaces, and continuous hands-on growth.",
+    "storyKicker": "My Story",
+    "storyTitle": "From Learning Code to Building Complete Projects",
+    "storyP1": "My journey in web development began with mastering the fundamentals of HTML, CSS, and JavaScript. Since then, I have focused on building practical projects across industries to turn theory into working experiences.",
+    "storyP2": "I enjoy crafting responsive interfaces, interactive JavaScript tools, and clean website layouts. Each build sharpens my design judgement, accessibility awareness, and engineering discipline.",
+    "storyP3": "Alongside frontend engineering, I am actively expanding my backend skills through structured Node.js, Express.js, and API development phases.",
+    "roleBadge": "Web Developer",
+    "philosophyTitle": "Working Approach & Philosophy",
+    "philosophyItems": {
+      "clean": { "title": "Clean Structure", "desc": "Organized layouts and modular code that remain readable and maintainable." },
+      "ux": { "title": "User Clarity", "desc": "Interfaces built around legibility, keyboard accessibility, and intuitive flow." },
+      "responsive": { "title": "Multi-Device Precision", "desc": "Adapted thoughtfully for phones, tablets, laptops, and large desktops." },
+      "growth": { "title": "Continuous Improvement", "desc": "Iterative testing, refinement, and expanding technical depth with every build." }
+    },
+    "journeyKicker": "Development Timeline",
+    "journeyTitle": "Progression & Milestones",
+    "journeySubtitle": "Every project represents a concrete step forward in capability and engineering clarity.",
+    "timeline": {
+      "foundation": {
+        "stage": "Stage 01 · Foundation",
+        "title": "Building the Fundamentals",
+        "desc": "Learning semantic HTML5 and modern CSS3 to create structured, accessible, and visually balanced web pages.",
+        "tags": ["HTML5", "CSS3", "Responsive Design"]
+      },
+      "practice": {
+        "stage": "Stage 02 · Practice",
+        "title": "Creating Real-World Websites",
+        "desc": "Building industry-focused interfaces across fitness, e-commerce, real estate, hospitality, dental care, education, and business services.",
+        "tags": ["UI Development", "Web Design", "Multi-Industry Builds"]
+      },
+      "focus": {
+        "stage": "Stage 03 · Current Focus",
+        "title": "Interactive Apps & Backend Phases",
+        "desc": "Strengthening JavaScript, React, accessibility, and completing structured Node.js & Express.js backend phases.",
+        "tags": ["JavaScript", "React", "Node.js", "Express.js"]
+      },
+      "vision": {
+        "stage": "Stage 04 · Ongoing Direction",
+        "title": "Versatile Full-Stack Creation",
+        "desc": "Advancing full-stack architecture, API integration, and thoughtful UI/UX craftsmanship for production web applications.",
+        "tags": ["Full-Stack Architecture", "APIs", "UI/UX Craft"]
+      }
+    },
+    "visionKicker": "Long-Term Vision",
+    "visionTitle": "Combining Functionality, Creativity & Thoughtful Design",
+    "visionBody": "My goal is to build complete, dependable web applications where clean interface design and practical engineering work seamlessly together."
+  },
+  "skills": {
+    "kicker": "Skills & Technologies",
+    "title": "Verified Technology Stack",
+    "subtitle": "Technologies practiced and verified across published websites, interactive tools, and backend learning phases.",
+    "filterAll": "All",
+    "filterFrontend": "Frontend",
+    "filterBackend": "Backend",
+    "filterLanguages": "Languages",
+    "filterWorkflow": "Workflow",
+    "items": {
+      "html5": "Semantic document architecture and accessible markup.",
+      "css3": "Responsive grids, custom properties, and hardware-conscious motion.",
+      "javascript": "Interactive DOM logic, async API workflows, and application state.",
+      "react": "Component-driven interfaces and modern single-page architectures.",
+      "nodejs": "Server-side JavaScript execution and backend fundamentals.",
+      "expressjs": "Structured HTTP routing, middleware, and REST endpoint design.",
+      "mongodb": "Document-oriented data modeling exploration.",
+      "restApis": "External data fetching, JSON handling, and safe error states.",
+      "python": "General-purpose scripting and problem solving.",
+      "cpp": "Core programming logic and algorithmic fundamentals.",
+      "gitGithub": "Version control, repository management, and open project hosting.",
+      "responsiveUi": "Cross-device visual hierarchy, typography, and RTL-ready layouts."
+    }
+  },
+  "projects": {
+    "kicker": "Selected & Published Work",
+    "featuredTitle": "Featured Builds",
+    "viewAll": "View All Projects",
+    "pageKicker": "Project Archive",
+    "pageTitle": "Projects Built & Explored",
+    "pageSubtitle": "Browse all 34 verified projects across frontend websites, interactive JavaScript tools, and Node.js backend phases.",
+    "searchPlaceholder": "Filter projects by name, tech, or category...",
+    "sortLabel": "Sort",
+    "sortFeatured": "Featured First",
+    "sortAZ": "Title A–Z",
+    "sortZA": "Title Z–A",
+    "filterAll": "All Projects",
+    "filterStatic": "HTML & CSS",
+    "filterJs": "JavaScript",
+    "filterWeb": "Web Projects",
+    "filterBackend": "Backend Phases",
+    "resultsCount": "Showing {{count}} projects",
+    "emptyTitle": "No matching projects",
+    "emptyDesc": "Try clearing your filter or search query to browse all 34 verified builds.",
+    "resetFilters": "Reset Filters",
+    "liveDemo": "Live Demo",
+    "githubRepo": "GitHub",
+    "detailsBtn": "Details",
+    "closeModal": "Close details",
+    "categoryFrontend": "Frontend",
+    "categoryBackend": "Backend",
+    "universeKicker": "Explore My Project Universe",
+    "universeTitle": "Two Dedicated Project Hubs",
+    "universeSubtitle": "Access both live project repositories directly — preserved separately as distinct archives.",
+    "basicHubTitle": "Basic Projects Hub",
+    "basicHubDesc": "A fast, streamlined directory indexing 28 foundational HTML/CSS, JavaScript, and multi-page web projects with direct live demos and GitHub repositories.",
+    "basicHubCta": "Open Basic Hub",
+    "basicHubCount": "28 Projects",
+    "advancedHubTitle": "Advanced Projects Hub",
+    "advancedHubDesc": "An expanded interactive archive with 34 projects including Backend Phases 1–6, visual thumbnails, sidebar category filters, and keyboard search.",
+    "advancedHubCta": "Open Advanced Hub",
+    "advancedHubCount": "34 Projects",
+    "noteLabel": "Note",
+    "reusedThumbNote": "Shares a cover thumbnail in the original hub archive."
+  },
+  "services": {
+    "kicker": "Services",
+    "homeTitle": "Specialized Web Services",
+    "homeSubtitle": "Eight focused capabilities engineered for clarity, responsiveness, and maintainable code.",
+    "pageKicker": "What I Offer",
+    "pageTitle": "Web Solutions Built for Modern Teams & Brands",
+    "pageSubtitle": "From custom websites and landing pages to full UI/UX implementation and ongoing maintenance.",
+    "exploreAll": "Explore All 8 Services",
+    "startProject": "Discuss This Service",
+    "processKicker": "How I Work",
+    "processTitle": "From Idea to Polished Build",
+    "process": {
+      "discover": { "title": "Discover", "desc": "Clarify goals, target audience, content structure, and functional scope." },
+      "plan": { "title": "Plan", "desc": "Organize layout hierarchy, responsive breakpoints, and component architecture." },
+      "build": { "title": "Build", "desc": "Develop clean, accessible, theme-aware interfaces with modular code." },
+      "refine": { "title": "Refine", "desc": "Test responsiveness, keyboard accessibility, performance, and cross-browser polish." }
+    },
+    "items": {
+      "custom": {
+        "title": "Custom Website Development",
+        "description": "Bespoke multi-page or single-page websites engineered from scratch around your brand identity, content hierarchy, and technical goals.",
+        "d1": "Clean semantic HTML5 & modular component architecture",
+        "d2": "Tailored visual systems without generic template bloat",
+        "d3": "SEO-ready structure and fast static/CDN deployment"
+      },
+      "responsive": {
+        "title": "Responsive Web Design",
+        "description": "Deliberate layouts engineered to adapt naturally across phones, tablets, laptops, standard desktops, and ultrawide monitors.",
+        "d1": "Fluid typography and adaptive grid proportions",
+        "d2": "Touch-friendly navigation and zero horizontal overflow",
+        "d3": "Consistent spacing and contrast across screen classes"
+      },
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "Structured, maintainable React, TypeScript, HTML, CSS, and JavaScript interfaces built for reliability and clarity.",
+        "d1": "Data-driven components and centralized configuration",
+        "d2": "Clean state management and predictable rendering",
+        "d3": "Strict linting, modularity, and cross-browser stability"
+      },
+      "interactive": {
+        "title": "Interactive Web Applications",
+        "description": "Dynamic browser applications powered by responsive state updates, client-side filtering, instant search, and REST API integrations.",
+        "d1": "Instant search, live filtering, and keyboard shortcuts",
+        "d2": "External API integration with resilient loading/error states",
+        "d3": "Accessible interactive dialogs, forms, and feedback"
+      },
+      "landing": {
+        "title": "Landing Page Development",
+        "description": "Focused, high-clarity landing pages featuring strong typographic hierarchy, purposeful CTAs, and smooth visual pacing.",
+        "d1": "Impactful hero framing with legible contrast scrims",
+        "d2": "Clear conversion pathways and contact integration",
+        "d3": "Optimized asset loading and lightweight animations"
+      },
+      "redesign": {
+        "title": "Website Redesign",
+        "description": "Transforming outdated interfaces into modern, coherent, responsive, and accessible digital experiences while preserving core content.",
+        "d1": "Visual hierarchy overhaul and typography modernization",
+        "d2": "Mobile usability and contrast remediation",
+        "d3": "Preservation of verified content and essential routes"
+      },
+      "maintenance": {
+        "title": "Website Maintenance",
+        "description": "Ongoing layout updates, bug resolution, dependency hygiene, content additions, and responsive fixes to keep existing sites healthy.",
+        "d1": "UI bug fixes and cross-device layout corrections",
+        "d2": "Content, project, and service data updates",
+        "d3": "Performance checks and broken-link audits"
+      },
+      "uiux": {
+        "title": "UI/UX Implementation",
+        "description": "Translating interface designs into accessible, multi-theme, RTL-ready production code with disciplined spacing and micro-interactions.",
+        "d1": "Centralized CSS design tokens and multi-theme parity",
+        "d2": "WCAG-conscious focus states and keyboard navigation",
+        "d3": "Controlled transitions honoring reduced-motion settings"
+      }
+    }
+  },
+  "caseStudies": {
+    "kicker": "Case Studies",
+    "pageTitle": "Behind Selected Builds",
+    "pageSubtitle": "How individual frontend and API projects were structured, designed, and implemented.",
+    "roleLabel": "Role",
+    "focusLabel": "Focus",
+    "viewLive": "Open Live Project",
+    "viewRepo": "Inspect Source",
+    "approachKicker": "Approach",
+    "approachTitle": "How Ideas Become Working Software"
+  },
+  "faq": {
+    "kicker": "Frequently Asked Questions",
+    "title": "Common Questions",
+    "subtitle": "Clear answers about project workflow, showcases, and contacting Arslan Weblab.",
+    "items": {
+      "scope": {
+        "q": "What types of websites and web applications do you build?",
+        "a": "Across the 8 core services, I build custom websites, responsive designs, interactive JavaScript/React applications, landing pages, redesigns, and UI/UX implementations."
+      },
+      "hubs": {
+        "q": "Why are there two Project Hubs (Basic and Advanced)?",
+        "a": "Both hubs are preserved as independent public archives: the Basic Projects Hub indexes 28 foundational builds in a lightweight layout, while the Advanced Projects Hub expands to 34 projects including Backend Phases 1–6 and visual previews."
+      },
+      "stack": {
+        "q": "Which technologies do you primarily work with?",
+        "a": "Verified projects use HTML5, CSS3, JavaScript, React, REST APIs, Git & GitHub, along with Node.js and Express.js backend learning phases."
+      },
+      "process": {
+        "q": "How does a typical project collaboration start?",
+        "a": "Share your goals, project type, timeline, and requirements via the Contact page or WhatsApp. We review the scope together, organize the layout and architecture, build iteratively, and refine across devices."
+      },
+      "contact": {
+        "q": "What is the fastest way to reach you?",
+        "a": "You can submit the secured contact form on the Contact page, send a direct email to arslansahil850@gmail.com, or start a WhatsApp conversation directly."
+      }
+    }
+  },
+  "contact": {
+    "kicker": "Contact",
+    "homeTitle": "Let's Start a Conversation",
+    "homeSubtitle": "Have a website idea, redesign, or collaboration in mind? Send a message or reach out directly.",
+    "pageKicker": "Get in Touch",
+    "pageTitle": "Let's Build Something Meaningful",
+    "pageSubtitle": "Share your project type, budget range, timeline, and requirements. Messages are validated and delivered via the dedicated contact backend.",
+    "directTitle": "Direct Channels",
+    "emailLabel": "Email",
+    "copyEmail": "Copy Email",
+    "emailCopied": "Email address copied to clipboard",
+    "whatsappLabel": "WhatsApp",
+    "whatsappAction": "Message on WhatsApp",
+    "whatsappOpened": "Opening WhatsApp chat",
+    "gmailAction": "Open in Gmail",
+    "githubLabel": "GitHub",
+    "facebookLabel": "Facebook",
+    "statusLabel": "Availability",
+    "statusValue": "Open for Web Projects",
+    "formTitle": "Project Inquiry Form",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your name",
+    "emailFieldLabel": "Email Address",
+    "emailPlaceholder": "name@example.com",
+    "projectTypeLabel": "Project Type",
+    "projectTypePlaceholder": "Select project type",
+    "projectTypes": {
+      "customWebsite": "Custom Website Development",
+      "responsiveDesign": "Responsive Web Design",
+      "frontendApp": "Frontend / Interactive Web App",
+      "landingPage": "Landing Page",
+      "redesign": "Website Redesign",
+      "maintenance": "Website Maintenance",
+      "other": "Other Inquiry"
+    },
+    "budgetLabel": "Budget Range",
+    "budgetPlaceholder": "Select estimated budget",
+    "budgets": {
+      "under250": "Under $250",
+      "250to500": "$250 – $500",
+      "500to1000": "$500 – $1,000",
+      "1000plus": "$1,000+",
+      "flexible": "Flexible / To Be Discussed"
+    },
+    "timelineLabel": "Target Timeline",
+    "timelinePlaceholder": "Select preferred timeline",
+    "timelines": {
+      "urgent": "Within 1–2 Weeks",
+      "standard": "2–4 Weeks",
+      "extended": "1–2 Months",
+      "flexible": "Flexible"
+    },
+    "messageLabel": "Project Requirements & Message",
+    "messagePlaceholder": "Describe what you want to build, key pages or features, and any reference links...",
+    "submitBtn": "Send Inquiry",
+    "submittingBtn": "Sending Inquiry...",
+    "validation": {
+      "nameRequired": "Please enter at least 2 characters for your name.",
+      "emailInvalid": "Please enter a valid email address.",
+      "projectTypeRequired": "Please select a project type.",
+      "budgetRequired": "Please select a budget range.",
+      "timelineRequired": "Please select a timeline.",
+      "messageMin": "Please provide at least 15 characters describing your requirements."
+    },
+    "successTitle": "Inquiry Sent",
+    "successMessage": "Your message has been delivered successfully. I will reply to your email soon.",
+    "errorFallback": "Unable to submit right now. Please try again or reach out directly via WhatsApp or arslansahil850@gmail.com.",
+    "nextKicker": "What Happens Next",
+    "nextTitle": "From Message to Launch",
+    "nextSteps": {
+      "s1": { "title": "Send", "desc": "Submit your project details and goals through the secured form." },
+      "s2": { "title": "Discuss", "desc": "Review requirements, timeline, and scope directly via email or WhatsApp." },
+      "s3": { "title": "Plan", "desc": "Finalize page structure, visual direction, and technical plan." },
+      "s4": { "title": "Build", "desc": "Develop, test across devices, and prepare for launch." }
+    }
+  },
+  "search": {
+    "title": "Global Search",
+    "placeholder": "Search pages, 34 projects, 8 services, technologies, FAQs...",
+    "clear": "Clear search",
+    "close": "Close search",
+    "recentLabel": "Recent Searches",
+    "clearHistory": "Clear",
+    "suggestionsLabel": "Quick Topics",
+    "resultsCount": "{{count}} results",
+    "emptyTitle": "Type to search ARSLAN WEBLAB",
+    "emptyDesc": "Instantly filter pages, projects, services, skills, and FAQs locally with zero backend latency.",
+    "noResultsTitle": "No exact matches found",
+    "noResultsDesc": "Try searching for React, Node.js, Redesign, WhatsApp, or explore one of the suggestions below.",
+    "categories": {
+      "page": "Pages",
+      "project": "Projects",
+      "service": "Services",
+      "technology": "Technologies",
+      "faq": "FAQs"
+    },
+    "hint": "Use ↑ ↓ arrows to navigate, Enter to open, Esc to close."
+  },
+  "footer": {
+    "statement": "Crafting fast, accessible, futuristic web experiences.",
+    "navigationHeading": "Navigation",
+    "hubsHeading": "Project Universe",
+    "connectHeading": "Direct Connect",
+    "copyright": "© {{year}} ARSLAN WEBLAB · Built by Arslan Sahil.",
+    "backToTop": "Back to top"
+  },
+  "errors": {
+    "backHome": "Return Home",
+    "openSearch": "Search Site",
+    "contactSupport": "Contact Me",
+    "e404": {
+      "code": "404",
+      "title": "Page Not Found",
+      "desc": "The page you requested does not exist or may have moved in this new architecture."
+    },
+    "e403": {
+      "code": "403",
+      "title": "Access Restricted",
+      "desc": "You do not have permission to view this resource."
+    },
+    "e500": {
+      "code": "500",
+      "title": "Unexpected Application Error",
+      "desc": "Something went wrong while rendering this view. No sensitive details are exposed; you can safely reload or return home."
+    },
+    "reloadBtn": "Reload View"
+  },
+  "social": {
+    "github": "GitHub",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "email": "Email"
+  }
+}

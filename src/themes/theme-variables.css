@@ -1,0 +1,10 @@
+:root {
+  --font-display: "Outfit", "Noto Sans Arabic", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Noto Sans Arabic", system-ui, sans-serif;
+  --font-urdu: "Noto Nastaliq Urdu", "Noto Sans Arabic", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-theme: background-color 240ms var(--ease-out-expo), color 240ms var(--ease-out-expo), border-color 240ms var(--ease-out-expo);
+  --radius-card: 16px;
+  --radius-control: 10px;
+}

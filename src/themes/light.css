@@ -1,0 +1,24 @@
+html[data-theme="light"] {
+  color-scheme: light;
+  --bg-canvas: #f8f9fc;
+  --bg-elevated: #ffffff;
+  --bg-surface: rgba(255, 255, 255, 0.88);
+  --bg-surface-solid: #ffffff;
+  --bg-surface-hover: #f1f4f9;
+  --bg-glass: rgba(248, 249, 252, 0.88);
+  --text-primary: #0b1324;
+  --text-secondary: #334155;
+  --text-muted: #526075;
+  --accent: #8f670e;
+  --accent-bright: #a67c18;
+  --accent-contrast: #ffffff;
+  --accent-soft: rgba(143, 103, 14, 0.1);
+  --border-subtle: rgba(15, 23, 42, 0.11);
+  --border-strong: rgba(143, 103, 14, 0.36);
+  --shadow-elevated: 0 20px 44px -18px rgba(15, 23, 42, 0.12);
+  --hero-filter: brightness(1.16) contrast(0.92) saturate(0.68);
+  --hero-scrim: linear-gradient(135deg, rgba(248, 249, 252, 0.94) 0%, rgba(248, 249, 252, 0.78) 54%, rgba(241, 244, 249, 0.9) 100%);
+  --glow-gold: rgba(143, 103, 14, 0.16);
+  --danger: #b91c1c;
+  --success: #047857;
+}

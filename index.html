@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="original" data-selected-theme="original">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#060B16" />
+    <title>ARSLAN WEBLAB — Web Development Portfolio & Digital Studio</title>
+    <meta
+      name="description"
+      content="Explore ARSLAN WEBLAB by Arslan Sahil: custom responsive websites, interactive web applications, 34+ showcased projects, and modern frontend engineering."
+    />
+    <meta name="author" content="Arslan Sahil" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://arslan-weblab-new.vercel.app/" />
+    <link rel="icon" type="image/webp" href="/assets/images/brand/brand-monogram.webp" />
+    <link rel="apple-touch-icon" href="/assets/images/brand/brand-monogram.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ARSLAN WEBLAB" />
+    <meta property="og:title" content="ARSLAN WEBLAB — Web Development Portfolio & Digital Studio" />
+    <meta
+      property="og:description"
+      content="Explore ARSLAN WEBLAB by Arslan Sahil: custom responsive websites, interactive web applications, 34+ showcased projects, and modern frontend engineering."
+    />
+    <meta property="og:url" content="https://arslan-weblab-new.vercel.app/" />
+    <meta property="og:image" content="/assets/images/brand/brand-monogram.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ARSLAN WEBLAB — Web Development Portfolio & Digital Studio" />
+    <meta
+      name="twitter:description"
+      content="Explore ARSLAN WEBLAB by Arslan Sahil: custom responsive websites, interactive web applications, and modern frontend engineering."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem("arslan_weblab_theme") || "original";
+          var validThemes = ["original", "system", "light", "black"];
+          if (validThemes.indexOf(savedTheme) === -1) savedTheme = "original";
+          var resolved = savedTheme;
+          if (savedTheme === "system") {
+            var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+            resolved = prefersDark ? "original" : "light";
+          }
+          document.documentElement.setAttribute("data-selected-theme", savedTheme);
+          document.documentElement.setAttribute("data-theme", resolved);
+          var savedLang = localStorage.getItem("arslan_weblab_lang") || "en";
+          if (savedLang !== "en" && savedLang !== "ur") savedLang = "en";
+          document.documentElement.setAttribute("lang", savedLang);
+          document.documentElement.setAttribute("dir", savedLang === "ur" ? "rtl" : "ltr");
+          if (localStorage.getItem("arslan_weblab_high_contrast") === "true") {
+            document.documentElement.setAttribute("data-high-contrast", "true");
+          }
+          if (localStorage.getItem("arslan_weblab_reduced_motion") === "true") {
+            document.documentElement.setAttribute("data-reduced-motion", "true");
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arslan Sahil",
+        "alternateName": "ARSLAN WEBLAB",
+        "url": "https://arslan-weblab-new.vercel.app/",
+        "email": "mailto:arslansahil850@gmail.com",
+        "jobTitle": "Web Developer",
+        "sameAs": [
+          "https://github.com/arslansahil850-alt",
+          "https://www.facebook.com/share/18c4n4kW56/"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

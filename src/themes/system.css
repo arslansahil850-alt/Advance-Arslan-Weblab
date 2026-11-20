@@ -1,0 +1,30 @@
+@media (prefers-contrast: more) {
+  html[data-theme="original"],
+  html[data-theme="black"] {
+    --text-secondary: rgba(255, 255, 255, 0.92);
+    --text-muted: rgba(255, 255, 255, 0.8);
+    --border-subtle: rgba(233, 202, 107, 0.55);
+  }
+  html[data-theme="light"] {
+    --text-secondary: #1e293b;
+    --text-muted: #334155;
+    --border-subtle: rgba(15, 23, 42, 0.35);
+  }
+}
+
+html[data-high-contrast="true"][data-theme="original"],
+html[data-high-contrast="true"][data-theme="black"] {
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.94);
+  --text-muted: rgba(255, 255, 255, 0.84);
+  --border-subtle: rgba(233, 202, 107, 0.62);
+}
+
+html[data-high-contrast="true"][data-theme="light"] {
+  --bg-canvas: #ffffff;
+  --bg-elevated: #ffffff;
+  --text-primary: #000000;
+  --text-secondary: #111827;
+  --text-muted: #1f2937;
+  --border-subtle: rgba(0, 0, 0, 0.38);
+}

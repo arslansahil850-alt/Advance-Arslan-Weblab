@@ -1,0 +1,941 @@
+{
+  "auditDate": "2026-11-19",
+  "sources": {
+    "oldLiveWebsite": "https://arslan-weblab.netlify.app/",
+    "oldGitHubRepo": "https://github.com/arslansahil850-alt/Arslan-Weblab",
+    "basicProjectsHub": "https://myprojects-hub.netlify.app/",
+    "advancedProjectsHub": "https://projects-hub-snowy.vercel.app/"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "title": "Home",
+      "oldPath": "index.html",
+      "liveUrl": "https://arslan-weblab.netlify.app/",
+      "newRoute": "/",
+      "verified": true
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "oldPath": "pages/projects.html",
+      "liveUrl": "https://arslan-weblab.netlify.app/pages/projects",
+      "newRoute": "/projects",
+      "verified": true
+    },
+    {
+      "id": "services",
+      "title": "Services",
+      "oldPath": "pages/services.html",
+      "liveUrl": "https://arslan-weblab.netlify.app/pages/services",
+      "newRoute": "/services",
+      "verified": true
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "oldPath": "pages/about.html",
+      "liveUrl": "https://arslan-weblab.netlify.app/pages/about",
+      "newRoute": "/about",
+      "verified": true
+    },
+    {
+      "id": "case-studies",
+      "title": "Case Studies",
+      "oldPath": "pages/case-studies.html",
+      "liveUrl": "https://arslan-weblab.netlify.app/pages/case-studies",
+      "newRoute": "/case-studies",
+      "verified": true
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "oldPath": "pages/contact.html",
+      "liveUrl": "https://arslan-weblab.netlify.app/pages/contact",
+      "newRoute": "/contact",
+      "verified": true
+    }
+  ],
+  "hubProjects": [
+    {
+      "id": "website-design-1",
+      "title": "Website Design 1",
+      "description": "A responsive landing page with a modern interface and design.",
+      "category": "frontend",
+      "subcategory": "static-pages",
+      "image": "assets/web-design1.webp",
+      "live": "https://webpage-design-1.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Website-Design-1/",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-website-design-1-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "blogo-static-page",
+      "title": "BLOGO Static Page",
+      "description": "A responsive Blogo landing page with a modern interface.",
+      "category": "frontend",
+      "subcategory": "static-pages",
+      "image": "assets/blogostatic.webp",
+      "live": "https://blogo-static-page.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Blogo-Static-Page/",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-blogo-static-page-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "blogo-static-page-2",
+      "title": "BLOGO Static Page 2",
+      "description": "A responsive Blogo landing page with a modern interface.",
+      "category": "frontend",
+      "subcategory": "static-pages",
+      "image": "assets/blogo-static2.webp",
+      "live": "https://blogo-static-page2.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Blogo-Static-Page2/",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-blogo-static-page-2-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "foodie-static-page",
+      "title": "FOODIE Static Page",
+      "description": "A responsive FOODIE landing page with a modern interface.",
+      "category": "frontend",
+      "subcategory": "static-pages",
+      "image": "assets/foodie-static.webp",
+      "live": "https://foodie-static-page.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Foodie-Static-Page/",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-foodie-static-page-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "dashboard-static-page",
+      "title": "DASHBOARD Static Page",
+      "description": "A responsive dashboard UI landing page with a modern interface.",
+      "category": "frontend",
+      "subcategory": "static-pages",
+      "image": "assets/dashboard.webp",
+      "live": "https://dashboard-static-page.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Dashboard-UI/",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-dashboard-static-page-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "shopora-static-page",
+      "title": "SHOPORA Static Page",
+      "description": "A responsive SHOPORA landing page with a modern interface.",
+      "category": "frontend",
+      "subcategory": "static-pages",
+      "image": "assets/shopora-static.webp",
+      "live": "https://shopora-static-page.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Shopora-Static-Page/",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-shopora-static-page-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "modern-todo",
+      "title": "Modern ToDo",
+      "description": "A multi-function task management application.",
+      "category": "frontend",
+      "subcategory": "javascript",
+      "image": "assets/modern-todo.webp",
+      "live": "https://realistic-todo-app.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Modern-ToDo-App/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-modern-todo-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "calculator-app",
+      "title": "Calculator App",
+      "description": "A functional calculator built with JavaScript.",
+      "category": "frontend",
+      "subcategory": "javascript",
+      "image": "assets/basic-calculator.webp",
+      "live": "https://calculator-app-by-arslan.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Calculator-App/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-calculator-app-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "todo-app",
+      "title": "To-Do App",
+      "description": "A simple task management application.",
+      "category": "frontend",
+      "subcategory": "javascript",
+      "image": "assets/todo.webp",
+      "live": "https://todo-app-by-arslan.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/To-Do-App/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-todo-app-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "password-generator",
+      "title": "Password Generator",
+      "description": "An interactive password generator application.",
+      "category": "frontend",
+      "subcategory": "javascript",
+      "image": "assets/passowrd-generator.webp",
+      "live": "https://password-generator-pages.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Password-Generator/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-password-generator-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "quiz-app",
+      "title": "Quiz App",
+      "description": "An interactive quiz application with scoring.",
+      "category": "frontend",
+      "subcategory": "javascript",
+      "image": "assets/quizes.webp",
+      "live": "https://quiz-app-by-arslan.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Quiz-App/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-quiz-app-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "stopwatch-app",
+      "title": "Stopwatch App",
+      "description": "A responsive stopwatch with start, stop and reset controls.",
+      "category": "frontend",
+      "subcategory": "javascript",
+      "image": "assets/stop-watch.webp",
+      "live": "https://stopwatch-app-by-arslan.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Stop-Watch/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-stopwatch-app-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "weather-app",
+      "title": "Weather App",
+      "description": "A weather application using an external API.",
+      "category": "frontend",
+      "subcategory": "javascript",
+      "image": "assets/weather.-app.webp",
+      "live": "https://weather-app-by-arslan.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Weather-App/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "API"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-weather-app-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "my-portfolio",
+      "title": "My Portfolio",
+      "description": "My personal portfolio website combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/web-portfolio.webp",
+      "live": "https://arslan-weblab.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Arslan-Weblab/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-my-portfolio-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "shopping-website",
+      "title": "Shopping Website",
+      "description": "A complete shopping web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/shopping.webp",
+      "live": "https://shopping-demo-website.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Shopping-Website/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-shopping-website-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "real-estate-website",
+      "title": "Real Estate Website",
+      "description": "A complete web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/real-estate.webp",
+      "live": "https://real-estate-wbproject.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Real-Estate-Website/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-real-estate-website-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "learn-com",
+      "title": "Learn.com",
+      "description": "A complete learning demo web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/learning.webp",
+      "live": "https://learning-demo-website.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Learning-Website/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-learn-com-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "nexora",
+      "title": "Nexora",
+      "description": "A business growth demo website combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/nexora.webp",
+      "live": "https://nexora-webproject.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Business-Service-Web/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-nexora-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "business-service-website",
+      "title": "Business Service Website",
+      "description": "A complete business service demo web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/business-service.webp",
+      "live": "https://business-service-web.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Business-Service-Web",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-business-service-website-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "gym-fitness-website",
+      "title": "Gym Fitness Website",
+      "description": "A complete gym fitness demo web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/gym-web.webp",
+      "live": "https://gym-fitness-website-cyan.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Gym-Website",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-gym-fitness-website-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "classic-food-web",
+      "title": "Classic Food Web",
+      "description": "An enhanced restaurant demo web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/classis-foodie.webp",
+      "live": "https://classic-foodie-web.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/FOODIE",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-classic-food-web-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "stayora",
+      "title": "Stayora",
+      "description": "A complete hotel booking demo web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/real-estate.webp",
+      "live": "https://hotel-booking-website-alpha-gray.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Stayora-Website",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": true,
+      "localCoverPath": "/assets/images/projects/project-real-estate-website-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "digital-agency",
+      "title": "Digital Agency",
+      "description": "A complete digital agency demo web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/digital-agency.webp",
+      "live": "https://digital-agency-web-green.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Digital-Agency/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-digital-agency-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "dental-website",
+      "title": "Dental Website",
+      "description": "A complete dental demo web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/dental-web.webp",
+      "live": "https://dental-web-fawn.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Dental-Web/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-dental-website-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "saas-project",
+      "title": "SAAS Project",
+      "description": "A complete SaaS project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/business-service.webp",
+      "live": "https://saas-demo-webproject.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/SAAS-web-Project/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": true,
+      "localCoverPath": "/assets/images/projects/project-business-service-website-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "foodie-com",
+      "title": "FOODIE.com",
+      "description": "A complete web project combining multiple technologies.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/foodie.webp",
+      "live": "https://foodie-website-by-arslan.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/FOODIE/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-foodie-com-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "web-loaders",
+      "title": "Web Loaders",
+      "description": "A collection of CSS loaders and web animations.",
+      "category": "frontend",
+      "subcategory": "web-projects",
+      "image": "assets/loaders.webp",
+      "live": "https://webloaders.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Web-Loaders/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-web-loaders-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "navbar-collections",
+      "title": "Navbar Collections",
+      "description": "10 modern navbar designs: a collection of responsive, creative, and modern navigation concepts.",
+      "category": "frontend",
+      "subcategory": "learn-code",
+      "image": "assets/navbars.webp",
+      "live": "https://navbar-collections.netlify.app/",
+      "github": "https://github.com/arslansahil850-alt/Navbars/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-navbar-collections-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "backend-phase-1",
+      "title": "Backend Development - Phase 1",
+      "description": "A structured backend development learning project covering JavaScript fundamentals, asynchronous programming, Node.js basics, HTTP fundamentals, and Express.js introduction.",
+      "category": "backend",
+      "subcategory": "learn-code",
+      "image": "assets/backend-phase-1.webp",
+      "live": "https://backend-phase-1-tawny.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Backend-Phase-1",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "HTTP",
+        "Express.js"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-backend-phase-1-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "backend-phase-2",
+      "title": "Backend Development - Phase 2",
+      "description": "A comprehensive backend development learning project covering backend fundamentals, Node.js, Express.js, routing, APIs, and practical backend concepts.",
+      "category": "backend",
+      "subcategory": "learn-code",
+      "image": "assets/backend-phase-2.webp",
+      "live": "https://backend-phase-2.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Backend-Phase-2",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "APIs",
+        "Backend"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-backend-phase-2-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "backend-phase-3",
+      "title": "Backend Development - Phase 3",
+      "description": "An advanced backend development learning project focused on expanding backend knowledge through practical concepts, structured lessons, and development exercises.",
+      "category": "backend",
+      "subcategory": "learn-code",
+      "image": "assets/backend-phase-3.webp",
+      "live": "https://backend-bhase-2.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Backend-Phase-3",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "Backend Development",
+        "Projects"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-backend-phase-3-cover.webp",
+      "notes": "Live URL contains typo backend-bhase-2 in original hub source"
+    },
+    {
+      "id": "backend-phase-4",
+      "title": "Backend Development - Phase 4",
+      "description": "An advanced backend development learning project covering essential backend concepts through structured lessons, practical examples, coding exercises, and revision.",
+      "category": "backend",
+      "subcategory": "learn-code",
+      "image": "assets/backend-phase-4.webp",
+      "live": "https://backend-phase-4-five.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Backend-Phase-4",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "Backend Development",
+        "Advanced Concepts"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-backend-phase-4-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "backend-phase-5",
+      "title": "Backend Development - Phase 5",
+      "description": "An advanced backend development learning project covering essential backend concepts through structured lessons, practical examples, coding exercises, and revision.",
+      "category": "backend",
+      "subcategory": "learn-code",
+      "image": "assets/backend-phase-5.webp",
+      "live": "https://backend-phase-5.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Backend-Phase-5",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "Backend Development",
+        "Advanced Concepts"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-backend-phase-5-cover.webp",
+      "notes": null
+    },
+    {
+      "id": "backend-phase-6",
+      "title": "Backend Development - Phase 6",
+      "description": "An advanced backend development learning project covering essential backend concepts through structured lessons, practical examples, coding exercises, and revision.",
+      "category": "backend",
+      "subcategory": "learn-code",
+      "image": "assets/backend-phase-6.webp",
+      "live": "https://backend-phase-6.vercel.app/",
+      "github": "https://github.com/arslansahil850-alt/Backend-Phase-6",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "Backend Development",
+        "Advanced Concepts"
+      ],
+      "featured": true,
+      "date": null,
+      "sourceUrl": "https://projects-hub-snowy.vercel.app/script.js",
+      "verified": true,
+      "reusedImage": false,
+      "localCoverPath": "/assets/images/projects/project-backend-phase-6-cover.webp",
+      "notes": null
+    }
+  ],
+  "basicHubOnlyCount": 28,
+  "oldSiteUnlinkedItems": [
+    {
+      "id": "expense-tracker",
+      "title": "Expense Tracker",
+      "description": "An interactive application for organizing expenses and dynamically updating financial information.",
+      "category": "javascript",
+      "tags": [
+        "JavaScript",
+        "DOM",
+        "Data"
+      ],
+      "live": null,
+      "github": null,
+      "sourceFile": "pages/projects.html",
+      "verified": true,
+      "readyToReuse": false,
+      "missingFields": [
+        "live",
+        "github",
+        "screenshot"
+      ]
+    }
+  ],
+  "oldServices": [
+    {
+      "id": "frontend-development",
+      "title": "Frontend Development",
+      "description": "Modern websites built with structured HTML, responsive CSS and JavaScript functionality.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "responsive-web-design",
+      "title": "Responsive Web Design",
+      "description": "Clean and responsive interfaces that adapt naturally across desktops, tablets and mobile devices.",
+      "tags": [
+        "Responsive",
+        "UI",
+        "UX"
+      ]
+    },
+    {
+      "id": "interactive-web-apps",
+      "title": "Interactive Web Apps",
+      "description": "Interactive applications with dynamic content, useful functionality and JavaScript-powered features.",
+      "tags": [
+        "JavaScript",
+        "DOM",
+        "API"
+      ]
+    },
+    {
+      "id": "api-integration",
+      "title": "API Integration",
+      "description": "Connecting web applications with external APIs to display and work with useful data.",
+      "tags": [
+        "REST",
+        "API",
+        "JSON"
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "shopora",
+      "number": "01",
+      "category": "E-COMMERCE",
+      "stack": "HTML / CSS",
+      "title": "Building A Modern Shopping Interface",
+      "summary": "A responsive e-commerce interface focused on product presentation, clean layouts and a smooth browsing experience.",
+      "role": "Frontend Developer",
+      "focus": "Responsive UI",
+      "linkedProjectId": "shopping-website"
+    },
+    {
+      "id": "weather",
+      "number": "02",
+      "category": "WEB APP",
+      "stack": "JAVASCRIPT / API",
+      "title": "Connecting A Website With Real Data",
+      "summary": "A weather application exploring API requests, JSON data, dynamic content and interactive JavaScript functionality.",
+      "role": "Frontend Developer",
+      "focus": "API Integration",
+      "linkedProjectId": "weather-app"
+    },
+    {
+      "id": "todo",
+      "number": "03",
+      "category": "WEB APP",
+      "stack": "JAVASCRIPT",
+      "title": "Turning Simple Ideas Into Interactive Apps",
+      "summary": "A task management application focused on DOM manipulation, user interaction and dynamic interface updates.",
+      "role": "Frontend Developer",
+      "focus": "JavaScript Logic",
+      "linkedProjectId": "modern-todo"
+    }
+  ],
+  "skillsVerified": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Python",
+    "C++",
+    "REST APIs",
+    "Git & GitHub",
+    "Responsive Design",
+    "UI/UX Design"
+  ],
+  "contactAndSocials": {
+    "email": "arslansahil850@gmail.com",
+    "github": "https://github.com/arslansahil850-alt",
+    "whatsappUrl": "https://wa.me/923437773393",
+    "whatsappNumber": "+92 343 7773393",
+    "whatsappId": "ArslanSahil2011",
+    "facebook": "https://www.facebook.com/share/18c4n4kW56/"
+  },
+  "missingInformation": [
+    "Supplied futuristic hero background image (hero-background.webp) not present in old repo or hubs",
+    "Formal education, certifications, awards, client names, and calendar years for timeline",
+    "Dedicated screenshots for Stayora and SAAS Project (reused existing covers on hub)",
+    "Live demo, GitHub URL, and screenshot for Expense Tracker listed on old pages/projects.html",
+    "LinkedIn, X/Twitter, Instagram, or YouTube URLs (not present in old sources)"
+  ]
+}

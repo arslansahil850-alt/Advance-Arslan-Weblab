@@ -1,0 +1,8 @@
+{
+  "name": "ARSLAN WEBLAB",
+  "description": "Independent futuristic web development portfolio and project showcase by Arslan Sahil, featuring four global themes, English and Urdu RTL support, frontend global search, and a contact-only backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
