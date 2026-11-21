@@ -6,6 +6,7 @@ import { useLanguage } from "../../context/LanguageContext";
 import { usePreferences } from "../../context/PreferencesContext";
 import { useTheme } from "../../context/ThemeContext";
 import { useToast } from "../../context/ToastContext";
+import { useScrollLock } from "../../hooks/useScrollLock";
 import { trackEvent } from "../../services/analytics";
 
 export function PreferencesModal() {
@@ -21,6 +22,8 @@ export function PreferencesModal() {
   } = useTheme();
   const { language, setLanguage, t } = useLanguage();
   const { showToast } = useToast();
+
+  useScrollLock(isPreferencesOpen);
 
   useEffect(() => {
     if (!isPreferencesOpen) return;
@@ -76,7 +79,10 @@ export function PreferencesModal() {
           </button>
         </div>
 
-        <div className="max-h-[75vh] space-y-6 overflow-y-auto px-6 py-5">
+        <div
+          data-scroll-lock-scrollable="true"
+          className="max-h-[75vh] space-y-6 overscroll-contain overflow-y-auto px-6 py-5"
+        >
           <div>
             <h3 className="text-sm font-semibold">{t("preferences.themeSection")}</h3>
             <p className="mt-0.5 text-xs" style={{ color: "var(--text-muted)" }}>

@@ -12,7 +12,7 @@ export const siteConfig = {
   turnstileSiteKey: import.meta.env.VITE_TURNSTILE_SITE_KEY || "",
   assets: {
     brandMonogram: "/assets/images/brand/brand-monogram.webp",
-    heroBackground: "/assets/images/hero/hero-background.webp"
+    heroBackground: "/assets/images/hero/hero-background.jpg"
   },
   hubs: {
     basic: {

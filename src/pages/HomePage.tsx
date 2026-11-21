@@ -31,9 +31,12 @@ export function HomePage() {
             src={siteConfig.assets.heroBackground}
             alt=""
             aria-hidden="true"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
             onLoad={() => setHeroImgLoaded(true)}
             onError={() => setHeroImgMissing(true)}
-            className={`pointer-events-none absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${
+            className={`pointer-events-none absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-500 ${
               heroImgLoaded ? "opacity-100" : "opacity-0"
             }`}
             style={{ filter: "var(--hero-filter)" }}

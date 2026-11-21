@@ -8,6 +8,7 @@ import { usePreferences } from "../../context/PreferencesContext";
 import { useSearch } from "../../context/SearchContext";
 import { useTheme } from "../../context/ThemeContext";
 import { primaryNavItems } from "../../data/navigation";
+import { useScrollLock } from "../../hooks/useScrollLock";
 import { trackEvent } from "../../services/analytics";
 
 export function Navbar() {
@@ -19,6 +20,8 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [themeMenuOpen, setThemeMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  useScrollLock(mobileOpen);
 
   useEffect(() => {
     setMobileOpen(false);
@@ -256,7 +259,8 @@ export function Navbar() {
 
       {mobileOpen && (
         <div
-          className="border-t px-4 pb-5 pt-3 lg:hidden"
+          data-scroll-lock-scrollable="true"
+          className="max-h-[calc(100vh-4rem)] overflow-y-auto overscroll-contain border-t px-4 pb-5 pt-3 lg:hidden"
           style={{
             backgroundColor: "var(--bg-surface-solid)",
             borderColor: "var(--border-subtle)"

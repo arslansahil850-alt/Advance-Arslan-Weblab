@@ -4,6 +4,7 @@ import { useSearchParams } from "react-router-dom";
 import { ProjectCard } from "../components/cards/ProjectCard";
 import { MediaFrame } from "../components/loaders/MediaFrame";
 import { useLanguage } from "../context/LanguageContext";
+import { useScrollLock } from "../hooks/useScrollLock";
 import {
   projectsData,
   projectTypesMarquee,
@@ -24,6 +25,8 @@ export function ProjectsPage() {
   const [sortOrder, setSortOrder] = useState<SortOrder>("featured");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedProject, setSelectedProject] = useState<ProjectItem | null>(null);
+
+  useScrollLock(Boolean(selectedProject));
 
   useEffect(() => {
     if (highlightId) {
@@ -251,7 +254,8 @@ export function ProjectsPage() {
           />
 
           <div
-            className="relative z-10 w-full max-w-xl overflow-hidden rounded-2xl shadow-2xl"
+            data-scroll-lock-scrollable="true"
+            className="relative z-10 max-h-[90vh] w-full max-w-xl overscroll-contain overflow-y-auto rounded-2xl shadow-2xl"
             style={{
               backgroundColor: "var(--bg-surface-solid)",
               border: "1px solid var(--border-strong)"

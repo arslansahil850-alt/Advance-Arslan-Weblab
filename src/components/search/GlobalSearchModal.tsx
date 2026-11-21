@@ -3,6 +3,7 @@ import { ArrowUpRight, Search, X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
 import { useSearch } from "../../context/SearchContext";
+import { useScrollLock } from "../../hooks/useScrollLock";
 import { searchFrontendIndex, type SearchIndexItem } from "../../services/searchEngine";
 
 const SUGGESTIONS = ["React", "Node.js", "Redesign", "Stayora", "WhatsApp"];
@@ -35,6 +36,8 @@ export function GlobalSearchModal() {
   const inputRef = useRef<HTMLInputElement | null>(null);
   const [query, setQuery] = useState("");
   const [activeIdx, setActiveIdx] = useState(0);
+
+  useScrollLock(isSearchOpen);
 
   const results = useMemo(() => searchFrontendIndex(query, language), [query, language]);
 
@@ -147,7 +150,10 @@ export function GlobalSearchModal() {
           </button>
         </div>
 
-        <div className="max-h-[60vh] overflow-y-auto p-4">
+        <div
+          data-scroll-lock-scrollable="true"
+          className="max-h-[60vh] overscroll-contain overflow-y-auto p-4"
+        >
           {!query.trim() ? (
             <div className="space-y-5">
               {recentSearches.length > 0 && (
